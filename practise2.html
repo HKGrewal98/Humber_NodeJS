@@ -1,0 +1,17 @@
+<! DOCTYPE html>
+<html>
+<body>
+<h1>Harkanwal Grewal</h1>
+<script>
+
+fetch('https://dummy.restapiexample.com/api/v1/employee/1')
+ .then(function(resp){
+      console.log(resp);
+      return resp.json();
+ }).then(function(data){
+    console.log(data);
+ });
+
+</script>
+</body>
+</html>

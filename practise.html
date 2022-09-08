@@ -1,0 +1,19 @@
+<! DOCTYPE html>
+<html>
+<body>
+<h1>Harkanwal Grewal</h1>
+<script>
+
+// create XHR object
+var xhttp = new XMLHttpRequest();
+// call Web API
+xhttp.open("GET","https://dummy.restapiexample.com/api/v1/employee/1",false);
+xhttp.send();
+// Read API data.
+var data = JSON.parse(xhttp.responseText);
+// Display it
+console.log(data);
+
+</script>
+</body>
+</html>
